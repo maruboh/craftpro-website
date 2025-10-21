@@ -3,7 +3,7 @@
    Warm Minimalist Theme
 ---------------------------------*/
 
-/* 🎨 Color Palette */
+/* Color Palette */
 :root {
   --brown: #6b4e2e;
   --light-brown: #c3a98b;
@@ -12,7 +12,7 @@
   --dark: #2c2c2c;
 }
 
-/* 🌎 Global Reset & Typography */
+/* Global Reset & Typography */
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--beige);
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
   color: var(--offwhite);
 }
 
-/* 🧭 Navbar */
+/* Navbar */
 .navbar-brand {
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
   color: var(--brown);
 }
 
-/* 🏔️ Hero Section */
+/* Hero Section */
 .hero {
   background: linear-gradient(rgba(107, 78, 46, 0.65), rgba(107, 78, 46, 0.65)), 
               url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80') center/cover;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
   color: var(--offwhite);
 }
 
-/* 🪚 Features Section */
+/* Features Section */
 .features h2 {
   color: var(--brown);
 }
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5 {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* 📊 Stats Section */
+/* Stats Section */
 .stats {
   background-color: var(--offwhite);
   border-top: 1px solid #eee;
@@ -108,12 +108,12 @@ h1, h2, h3, h4, h5 {
   color: var(--brown);
 }
 
-/* 🪵 About Section */
+/* About Section */
 .about {
   background-color: var(--beige);
 }
 
-/* ✉️ Newsletter Section */
+/* Newsletter Section */
 .newsletter {
   background-color: var(--brown);
   color: var(--offwhite);
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5 {
   color: var(--brown);
 }
 
-/* ⚓ Footer */
+/* Footer */
 footer {
   font-size: 0.9rem;
 }
@@ -157,7 +157,7 @@ footer a:hover {
   opacity: 0.8;
 }
 
-/* 🌟 Animation Effects */
+/* Animation Effects */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -180,3 +180,4 @@ footer a:hover {
 .about { animation-delay: 0.8s; }
 .newsletter { animation-delay: 1s; }
 footer { animation-delay: 1.2s; }
+
