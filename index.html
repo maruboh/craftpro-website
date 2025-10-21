@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CraftPro - Premium Woodworking Tools</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraftPro Tools | Premium Woodworking Equipment</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -12,174 +12,124 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">CraftPro</a>
-        <div>
-            <a href="features" class="btn btn-outline-primary me-2">Feartures</a>
-            <a href="gallery" class="btn btn-outline-primary me-2">Gallery</a>
-            <button class="btn bnt-outline-secondary theme-toggle">Dark Mode</button>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-brown" href="#">CraftPro Tools</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#features">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#newsletter">Contact</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
 
-
 <!-- Hero Section -->
-<section class="hero text-center text-white">
+<section class="hero d-flex align-items-center text-center text-white">
   <div class="container">
-    <h1 class="display-4 fw-bold">Premium Woodworking Tools</h1>
-    <p class="lead">Built for Craftsmen, Loved by Professionals.</p>
-    <a class="btn btn-light btn-lg mt-3" href="#gallery">Explore Gallery</a>
+    <h1 class="display-4 fw-bold mb-3">Precision. Passion. Performance.</h1>
+    <p class="lead mb-4">At CraftPro Tools, we believe true craftsmanship deserves tools built with care, balance, and excellence. Designed for artisans, loved by professionals.</p>
+    <a href="#features" class="btn btn-light btn-lg">Explore Collection</a>
   </div>
 </section>
 
-
-<!--Stats section-->
-<section class="stats text-center my-5">
-    <div class="container d-flex justify-content-around">
-        <div>
-            <h2 class="counter" data-target="10000">0</h2>
-            <p>Happy Customers</p>
-        </div>
-        <div>
-            <h2 class="counter" data-target="500">0</h2>
-            <p>Tools Available</p>
-        </div>
-        <div>
-            <h2 class="counter" data-target="25">0</h2>
-            <p>Years of Excellence</p>
-        </div>
-    </div>
-</section>
-
-
-<!--Features Section-->
-<main class="container my-5" id="features">
-  <h2 class="text-center mb-4">Our Featured Tools</h2>
-  <div class="row g-4">
-
-    <!-- First 3 tools -->
-    <div class="col-md-4">
-      <div class="card h-100 tool-card">
-        <div class="card-body text-center">
-          <h5 class="card-title">Precision Chisel Set</h5>
-          <p class="card-text">Crafted with high-carbon steel for detailed carving.</p>
-          <button class="btn btn-primary mt-3">Buy Now</button>
+<!-- Features Section -->
+<section class="features py-5" id="features">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">Our Signature Tools</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm tool-card">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Precision Chisel Set</h5>
+            <p class="card-text text-muted">High-carbon steel for detailed, balanced carving in every stroke.</p>
+            <a href="#" class="btn btn-outline-brown mt-3">Learn More</a>
+          </div>
         </div>
       </div>
-    </div>
-     <div class="col-md-4">
-      <div class="card h-100 tool-card">
-        <div class="card-body text-center">
-          <h5 class="card-title">Compact Router</h5>
-          <p class="card-text">Perfect for edge profiles and joinery.</p>
-          <button class="btn btn-primary mt-3">Buy Now</button>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm tool-card">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Compact Router</h5>
+            <p class="card-text text-muted">Lightweight precision for smooth edges and effortless joinery.</p>
+            <a href="#" class="btn btn-outline-brown mt-3">Learn More</a>
+          </div>
         </div>
       </div>
-    </div>
-       <div class="col-md-4">
-      <div class="card h-100 tool-card">
-        <div class="card-body text-center">
-          <h5 class="card-title">Laser Guided Saw</h5>
-          <p class="card-text">Precision cuts every time. Lightweight and durable.</p>
-          <button class="btn btn-primary mt-3">Buy Now</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- New 3 tools -->
-    <div class="col-md-4">
-      <div class="card h-100 tool-card">
-        <div class="card-body text-center">
-          <h5 class="card-title">Power Drill Set</h5>
-          <p class="card-text">High torque and multiple drill bits for versatility.</p>
-          <button class="btn btn-primary mt-3">Buy Now</button>
-        </div>
-      </div>
-    </div>
-     <div class="col-md-4">
-      <div class="card h-100 tool-card">
-        <div class="card-body text-center">
-          <h5 class="card-title">Workbench Clamps</h5>
-          <p class="card-text">Secure your workpiece with precision clamps.</p>
-          <button class="btn btn-primary mt-3">Buy Now</button>
-        </div>
-      </div>
-    </div>
-       <div class="col-md-4">
-      <div class="card h-100 tool-card">
-        <div class="card-body text-center">
-          <h5 class="card-title">Premium Sanding Kit</h5>
-          <p class="card-text">Smooth finish for any wood project.</p>
-          <button class="btn btn-primary mt-3">Buy Now</button>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm tool-card">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Laser-Guided Saw</h5>
+            <p class="card-text text-muted">Every cut counts. Guaranteed straight, accurate, and dependable.</p>
+            <a href="#" class="btn btn-outline-brown mt-3">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</main>
+</section>
 
+<!-- Stats Section -->
+<section class="stats text-center py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h2 class="display-6 fw-bold text-brown">10K+</h2>
+        <p class="text-muted mb-0">Happy Craftsmen Worldwide</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="display-6 fw-bold text-brown">500+</h2>
+        <p class="text-muted mb-0">Precision Tools Available</p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="display-6 fw-bold text-brown">25</h2>
+        <p class="text-muted mb-0">Years of Dedication</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Floating WhatsApp Button -->
-<a href="https://wa.me/123456789" class="whatsapp-float" target="_blank">
-  <i class="bi bi-whatsapp"></i>
-</a>
-
+<!-- About Section -->
+<section class="about py-5 bg-light" id="about">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Our Craft, Our Promise</h2>
+    <p class="text-muted mx-auto" style="max-width: 700px;">
+      Every tool we make carries the spirit of the craftsman — thoughtful design, precision engineering, and enduring reliability. Whether you’re shaping fine furniture or framing your next masterpiece, CraftPro Tools is built to elevate your work.
+    </p>
+  </div>
+</section>
 
 <!-- Newsletter Section -->
-<section class="newsletter text-center text-white py-5">
+<section class="newsletter text-center text-white py-5" id="newsletter">
   <div class="container">
-    <h2 class="mb-3">Subscribe to Our Newsletter</h2>
-    <p>Get updates on new tools and exclusive discounts.</p>
-    <form class="d-flex justify-content-center">
-      <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
-      <button class="btn btn-light">Subscribe</button>
+    <h2 class="fw-bold mb-3">Join Our Community</h2>
+    <p class="mb-4">Be the first to hear about new releases, exclusive offers, and woodworking insights.</p>
+    <form class="d-flex justify-content-center flex-column flex-sm-row align-items-center">
+      <input type="email" class="form-control w-50 mb-3 mb-sm-0 me-sm-2 rounded-pill" placeholder="Enter your email">
+      <button class="btn btn-light rounded-pill">Subscribe</button>
     </form>
   </div>
 </section>
 
-
 <!-- Footer -->
-<footer class="bg-dark text-white text-center py-4">
-  <p>&copy; 2025 CraftPro. All Rights Reserved.</p>
+<footer class="text-center py-4 bg-brown text-white">
+  <p class="mb-1">&copy; 2025 CraftPro Tools. All Rights Reserved.</p>
   <div>
     <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
-    <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
     <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
   </div>
 </footer>
 
-
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-
-  // Dark Mode Toggle
-  const toggleButton = document.querySelector('.theme-toggle');
-  toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('dark-theme');
-    toggleButton.textContent = document.body.classList.contains('dark-theme') ? 'Light Mode' : 'Dark Mode';
-  });
-
- 
-   // Stats Counter Animation
-  const counters = document.querySelectorAll('.counter');
-  counters.forEach(counter => {
-    counter.innerText = '0';
-    const updateCounter = () => {
-      const target = +counter.getAttribute('data-target');
-      const c = +counter.innerText;
-      const increment = target / 200;
-      if (c < target) {
-        counter.innerText = `${Math.ceil(c + increment)}`;
-        setTimeout(updateCounter, 10);
-      }
-    };
-    updateCounter();
-  });
-</script>
 </body>
 </html>
